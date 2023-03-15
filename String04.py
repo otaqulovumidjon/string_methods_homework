@@ -7,4 +7,6 @@ def main(s):
         bool: answer
     """
     
-    return
+    return s == s.lower()
+
+print(main("brodarim, yaxshimisiz, ishlaringiz yaxshimi!"))
